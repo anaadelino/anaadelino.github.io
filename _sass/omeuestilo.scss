@@ -18,3 +18,554 @@ ul {
         color: green;
     }
 }
+
+
+
+
+
+
+
+body {
+    margin: 0;   
+}
+
+* {
+   box-sizing: border-box; 
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px rgba(93,93,93,.2);
+    background: url(imagens/IMG_7408.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo, nav {
+    z-index: 1;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    padding: 0;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 20px 20px 0 0;
+}
+
+ul {
+   list-style: none; 
+}
+
+nav li {
+    float: left;
+    padding: 8px;
+    margin: 3px;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #3B3B3B;
+}
+
+nav a:hover {
+    border-bottom: 3px solid #5ef44a;
+}
+
+header div h1 {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    max-width: 400px;
+}
+
+.arrow {
+    width: 7%;
+    height: 10%;
+    background: url(imagens/arrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 46.5%;
+    top: 90%;
+}
+
+.menu_background {
+    height: 100px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+#About_me, #My_Work, #Skills, #Education, #Contact {
+    padding: 7%;
+    padding-top: 90px;
+    box-shadow: 0 10px 30px 0 rgba(93,93,93,.07);
+}
+
+/*---------About me---------*/
+
+#About_me {
+    margin-top: -90px;
+    padding-bottom: 18%;
+}
+
+section h1 {
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    color: #3B3B3B;
+    text-align: center;
+    padding-bottom: 7%;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3B3B3B;
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #999999;
+    margin: 15px 0 30px 0;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3B3B3B;
+    margin-top: 20px;
+    max-width: 570px;
+}
+
+.My_picture {
+    padding: 40px 0 40px 0;
+    margin-left: 25%;
+}
+
+#About_me h3 {
+    width: 85%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    margin: 18% auto 30px auto;
+}
+
+#About_me a {
+    border-bottom: 3px solid #5ef44a;
+}
+
+#About_me a:hover {
+    border-bottom: 3px solid #3B3B3B;
+    transition-duration: .2s;
+}
+
+/*---------My Work---------*/
+
+#My_Work span {
+    display: block;
+    margin: 45px 0 120px 0;
+}
+
+#My_Work span:nth-of-type(4) {
+    margin-bottom: 20%;
+}
+
+.extra_image {
+    margin-bottom: 20px;
+}
+
+/*---------Skills---------*/
+
+#Skills {
+    padding-bottom: 16%;
+}
+
+#Skills h2:first-of-type, #Skills h2:nth-of-type(3) {
+    padding-bottom: 40px;
+}
+
+#Skills img {
+    margin: 0 8px 12px 0;
+}
+
+#Skills h2:nth-of-type(2), #Skills ul, #Skills h2:nth-of-type(3) {
+    padding-top: 15%;
+}
+
+#Skills h2:nth-of-type(2) {
+    float: left;
+    vertical-align: top;
+    margin-right: 3%;
+}
+
+#Skills ul {
+    margin: 0;
+}
+
+#Skills ul li {
+    float: left;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3B3B3B;
+    padding: 0 0 0 40px;
+}
+
+#Skills h2:nth-of-type(3) {
+    clear: both;
+}
+
+#Skills p:nth-child(2n+1) {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+}
+
+#Skills p:nth-child(2n) {
+    margin: 0 0 45px 0;
+}
+
+/*---------Education---------*/
+
+#Education {
+    box-shadow: 0 0 0 0;
+    margin-bottom: 3%;
+}
+
+#Education p:nth-child(3n+1) {
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+#Education p:nth-child(3n+2) {
+    margin: 0;
+    font-weight: 600;
+}
+
+#Education p:nth-child(3n) {
+    margin: 5px 0 45px 0;
+}
+
+#Education img {
+    display: none;
+}
+
+/*---------Contact---------*/
+
+#Contact {
+    padding-top: 5%;
+    padding-bottom: 8%;
+    background-color: black;
+}
+
+footer h1 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    margin-bottom: 36px;
+}
+
+footer wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer span {
+    width: 55%;
+}
+
+footer p {
+    color: white;
+    margin: 8px 0 0 0;
+}
+
+/*---------Media Query---------*/
+
+@media (min-width: 568px) {
+    
+    .logo img {
+        width: 130px;
+    }
+    
+    header nav {
+        margin: 29px 20px 0 0;
+    }
+    
+    nav li {
+        font-size: 15px;
+    }
+    
+    header div h1 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    
+    .arrow {
+        width: 6%;
+        height: 8%;
+        left: 47%;
+    }
+    
+    #About_me, #My_Work, #Skills, #Education {
+        padding-top: 100px;
+    }
+    
+    .menu_background {
+        height: 110px;
+    }
+    
+    #About_me {
+        margin-top: -100px;
+    }
+    
+    #About_me h3 {
+        width: 72%;
+    }
+}
+
+@media (min-width: 668px) {
+    
+    header {
+        background: url(imagens/IMG_7409.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .logo {
+        margin: 30px;
+    }
+    
+    header nav {
+        margin: 35px 30px 0 0;
+    }
+    
+    nav li {
+        margin: 7px;
+    }
+    
+    header div h1 {
+        font-size: 24px;
+        line-height: 38px;
+        max-width: 430px;
+    }
+    
+    .arrow {
+        width: 5%;
+        height: 8%;
+        left: 47.5%;
+    }
+    
+    #About_me, #My_Work, #Skills, #Education {
+        padding-top: 110px;
+    }
+    
+    .menu_background {
+        height: 120px;
+    }
+    
+    #About_me {
+        margin-top: -110px;
+    }
+    
+    section h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin: 25px 0 50px 0;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+    .My_picture {
+        width: 40%;
+        margin-left: 30%;
+    }
+    
+    #About_me h3 {
+        font-size: 20px;
+        line-height: 39px;
+        max-width: 381px;
+    }
+    
+    #Skills ul li {
+        font-size: 18px;
+        line-height: 32px;
+        padding: 0 0 0 50px;
+    }
+    
+    #Skills p:nth-child(2n+1) {
+        font-size: 18px; 
+    }
+}
+
+@media (min-width: 768px) {
+   
+    header nav {
+        margin: 35px 40px 0 0;
+    }
+}
+
+@media (min-width: 968px) {
+    
+    header {
+        background: url(imagens/IMG_7384.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    header div {
+        margin-top: 0;
+    }
+    
+    header div h1 {
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    .arrow {
+        width: 4%;
+        height: 6%;
+        left: 48%;
+    }
+    
+    wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .My_picture {
+        width: 200px;
+        height: 216px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #About_me p:first-of-type {
+        margin-top: 65px;
+    }
+    
+    #About_me h3 {
+        font-size: 22px;
+        line-height: 42px;
+        max-width: 440px;
+    }
+    
+    #My_Work > img, #My_Work div, #My_Work span, #Education span, #Education img {
+        display: inline-block;
+    } 
+
+    #My_Work > img, #My_Work div {
+        width: 50%;
+        margin-right: 6%;
+    }
+
+    #My_Work span {
+        width: 43%;
+        vertical-align: top;
+        margin-top: 0;
+    }
+    
+    section h1 {
+        padding-bottom: 80px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        margin: 20px 0 45px 0;
+    }
+    
+    #My_Work p {
+        margin-bottom: 0;
+    }
+    
+    #Education span {
+        width: 50%;
+    }
+    
+    #Education img {
+        vertical-align: top;
+        margin: 80px 0 0 15%;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    header div h1 {
+        font-size: 28px;
+        line-height: 44px;
+        max-width: 490px;
+    }
+}
+
+@media (min-width: 1124px) {
+    
+    section h1 {
+        font-size: 26px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    #My_Work > img, #My_Work div {
+        width: 54%;
+        margin-right: 6%;
+    }
+
+    #My_Work span {
+        width: 39%;
+        margin-bottom: 200px;
+    }
+}
+
+
+@media (min-width: 1224px) {
+    
+    #About_me, #My_Work {
+        padding-bottom: 14%;
+    }
+    
+    #My_Work > img, #My_Work div {
+        width: 52%;
+        margin-right: 6%;
+    }
+    
+    #My_Work span {
+        width: 41%;
+    }
+}

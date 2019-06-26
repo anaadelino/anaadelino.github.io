@@ -1,34 +1,16 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col one-half">
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col one-half">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-
-      <div class="social-links">
-        {%- include social.html -%}
-      </div>
-    </div>
-
-  </div>
-
+<footer id="Contact">
+    <h1>CONTACT ME</h1>
+    <wrapper>
+        <span>
+            <p>{{ site.email }}</p>
+            <p>+351 960 496 631</p>
+        </span>
+        <nav>
+            <ul>
+                <li><a href="https://www.behance.net/anaadelino5e88" title="Behance logo"><img src="imagens/behance.png" alt="Behance" width="25px"></a></li>
+                <li><a href="https://www.instagram.com/ana.adelino/" title="Instagram"><img src="imagens/instagram.png" alt="Instagram logo" width="25px"></a></li>
+                <li><a href="https://www.linkedin.com/in/ana-adelino-8187a4171/" title="Linkedin"><img src="imagens/linkedin.png" alt="Linkedin logo" width="25px"></a></li>
+            </ul>
+        </nav>
+    </wrapper>
 </footer>
