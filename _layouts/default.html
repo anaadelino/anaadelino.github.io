@@ -1,20 +1,132 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {%- include head.html -%}
-
-  <body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
-
-  </body>
-
+<html>
+    
+    {%- include head.html -%}
+    
+    <body>
+        <header>
+            <div class="logo">
+                <a href="Index.html" title="logo"><img src="imagens/logo.png" width="100px"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#About_me">About</a></li>
+                    <li><a href="#My_Work">Work</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h1>Hi! I’m a young portuguese Designer, recently graduated, who’s passionate about multidisciplinary Design.</h1>
+                <a href="#About_me" class="arrow" title="scroll down"></a>
+            </div>
+        </header>
+        <main>
+            <div class="menu_background"></div>
+            <section id="About_me">
+                <h1>ABOUT ME</h1>
+                <h2>Ana Adelino</h2>
+                <wrapper>
+                    <p>I’m a young Portuguese designer, born in 1997. Currently living in Sesimbra, a beatiful small town, near the sea. Came to Lisbon to make a dream come true, study Arts in the Faculty of Fine Arts, University of Lisbon.</p>
+                    <img class="My_picture" src="imagens/Me.jpg" width="50%" alt="My picture">
+                </wrapper>
+                <p>Took the Bachelors Degree in Communication Design and, currently, I’m still studiyng in FBAUL, taking a Pos Degree in Digital Experience Design.</p><p>I’m curios, dedicated and love to learn new things from new people. I’m passionate about multidisciplinary Design and allways try to provide the best solution in every project.</p>
+                <h3><a href="#Contact">Have a new project in mind? For job inquires or freelance collaborations, let me know.</a></h3>
+            </section>
+            <section id="My_Work">
+                <h1>MY WORK</h1>
+                <img src="imagens/9.jpg" alt="Neon Rose" width="100%">
+                <span>
+                    <h2>Neon Rose</h2>
+                    <h3>Editorial + Audiovisual</h3>
+                    <p>Neon Rose is a theoretical and informative Special Edition about the student situation, from the 60’s to the present.</p><p>It’s divided in two Booklets: The first, based on articles and quotes, frames the Free Speech Movement, a massive, long-lasting student protest which took place during 1964–65, on the campus of the University of California, in Berkeley; The second approaches the present by questioning the way higher education works in Portugal (was complemented with interviews made to Portuguese students).</p>
+                </span>
+                <img src="imagens/IMG_7390.jpg" alt="Rosinha, minha canoa" width="100%">
+                <span>
+                    <h2>Rosinha, minha canoa</h2>
+                    <h3>Editorial</h3>
+                    <p>Divided in two parts, “Rosinha, minha canoa” is a book that treats the relationship between Men and Nature, at a time when little out of the ordinary ideas were considered insane.</p> 
+                    <p>The special edition I created (compared to the original) adds a full text treatment, typographic design and illustration of the story. The book was impressed in serigraphy and bookbinded by hand.</p>
+                </span>
+                <img src="imagens/Mockup%20can.jpg" alt="Portugal in Can Mockup" width="100%">
+                <span>
+                    <h2>Portugal in Can</h2>
+                    <h3>Digital + Illustration</h3>
+                    <p>Portugal in Can was a Digital project that consisted in the creation of an Website based on a traditionally Portuguese object. The one I chose was the well known Portuguese Fish in Can.</p>
+                    <p>From there, I made a full research on the history of this object, understood which are the most common fish preserved and created illustrations for each one, relating the fish with traditionally Portuguese proverbs.</p>
+                </span>
+                <div>
+                    <img src="imagens/8.jpg" alt="Installation" width="100%" class="extra_image">
+                    <img src="imagens/20.jpg" alt="Audiovisual Publication" width="100%">
+                </div>
+                <span>
+                    <h2>In the mood for love?</h2>
+                    <h3>Editorial + Audiovisual</h3>
+                    <p>In the Mood for Love? is a project that covers social issues related to Love and Sex. Its base is the idea of Generation (a group of people born during the same period of time, therefore carrying different perspectives on life).</p> 
+                    <p>How does Love work today? Does it mean the same as in the past? And Sex? Is Love confused with Sex in our days? These were some of questions we tried to answer in this project. To do that, we divided it into two different moments: The first was a search for the meaning of Love and ways of loving (Cinema Cycle). The second covered the sexuality in the current youth and its vulgarization (Installation).</p> 
+                    <p>The project culminated in an Audiovisual Publication that reunites all the physical products of our long term work.</p>
+                </span>
+            </section>
+            <section id="Skills">
+                <h1>SKILLS</h1>
+                <h2>Software</h2>
+                <div>
+                    <img src="imagens/photoshop.png" alt="Photoshop logo" width="60px">
+                    <img src="imagens/after_effects.png" alt="After Effects logo" width="60px">
+                    <img src="imagens/premiere.png" alt="Premiere logo" width="60px">
+                    <img src="imagens/in_design.png" alt="In Design logo" width="60px">
+                    <img src="imagens/illustrator.png" alt="Illustrator logo" width="60px">
+                    <img src="imagens/sketch.png" alt="Sketch logo" width="60px">
+                    <img src="imagens/brackets.png" alt="Brackets logo" width="60px">
+                    <img src="imagens/html.png" alt="HTML" height="60px">
+                    <img src="imagens/css.png" alt="CSS" height="60px">
+                </div>
+                <h2>Languages</h2>
+                <ul>
+                    <li><b>Portuguese</b><br />Native</li>
+                    <li><b>English</b><br />Fluent</li>
+                    <li><b>Spanish</b><br />Basic</li>
+                </ul>
+                <h2>Work Experience</h2>
+                <p>2018 — Babysitting</p> 
+                <p>For a month took care of an english child.</p>
+                <p>2017 (October 29th) — Volunteer</p> 
+                <p>Support to the second edition of the crowfinding project, at the "Apoie o Restauro" Exposition.</p>
+                <p>2017 (February) — Sonae Corporation</p> 
+                <p>Presentation catalogue of the new Modelo/Continente and Solinca building, built in Lumiar.</p>
+            </section>
+            <section id="Education">
+                <h1>EDUCATION</h1>
+                <span>
+                    <p>2018 — 2019</p> 
+                    <p>Pos Degree in Digital Experience</p>
+                    <p>Faculty of Fine Arts, University of Lisbon</p>
+                    <p>2015 — 2018</p>
+                    <p>Bachelors Degree in Communication Design</p>
+                    <p>Faculty of Fine Arts, University of Lisbon</p>
+                    <p>2012 — 2015</p> 
+                    <p>Fine Arts Education</p>
+                    <p>Escola Secundária de Sampaio</p>
+                </span>
+                <img src="imagens/hunter_rest.jpg" alt="The Hunter Rest" width="230px">
+            </section>
+        </main>
+        <footer id="Contact">
+            <h1>CONTACT ME</h1>
+            <wrapper>
+                <span>
+                    <p>ana.adelino1997@gmail.com</p>
+                    <p>+351 960 496 631</p>
+                </span>
+                <nav>
+                    <ul>
+                        <li><a href="https://www.behance.net/anaadelino5e88" title="Behance logo"><img src="imagens/behance.png" alt="Behance" width="25px"></a></li>
+                        <li><a href="https://www.instagram.com/ana.adelino/" title="Instagram"><img src="imagens/instagram.png" alt="Instagram logo" width="25px"></a></li>
+                        <li><a href="https://www.linkedin.com/in/ana-adelino-8187a4171/" title="Linkedin"><img src="imagens/linkedin.png" alt="Linkedin logo" width="25px"></a></li>
+                    </ul>
+                </nav>
+            </wrapper>
+        </footer>
+    </body>
 </html>
