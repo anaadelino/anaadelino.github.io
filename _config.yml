@@ -1,8 +1,8 @@
-title: Anas DXD blog
-author: Anas
+title: Ana Adelino, Designer
+author: Ana Adelino
 email: ana.adelino1997@gmail.com
 description: > # this means to ignore newlines until "exclude"
-  This site belongs to Anas. Estamos a usar "gatos" (ou algo parecido - 20 valores).
+  This is personal website in wich I share my work as a Designer.
 
 exclude:
   - Gemfile
@@ -15,8 +15,4 @@ exclude:
 # want to customize this
 date_format: "%b %-d, %Y"
 
-# generate social links in footer
-social_links:
-  twitter: danielfdsilva
-  github:  danielfdsilva
-  # facebook:
+
