@@ -25,7 +25,7 @@ ul {
 
 
 body {
-    margin: 0;   
+    margin: 0;
 }
 
 * {
@@ -119,7 +119,7 @@ header div h1 {
 /*---------About me---------*/
 
 #About_me {
-    margin-top: -90px;
+    margin-top: 0px;
     padding-bottom: 18%;
 }
 
@@ -556,6 +556,7 @@ footer p {
 @media (min-width: 1224px) {
     
     #About_me, #My_Work {
+        margin-top: 0;
         padding-bottom: 14%;
     }
     
