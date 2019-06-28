@@ -4,7 +4,6 @@ $brandcolor: red;
 
 body {
     font-family: $mytype;
-    background-color: azure;
 }
 
 a, 
@@ -15,7 +14,7 @@ h2 {
 ul {
     list-style: none;       
     a {
-        color: green;
+        color: black;
     }
 }
 
@@ -39,7 +38,7 @@ header {
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 30px rgba(93,93,93,.2);
-    background: url(imagens/IMG_7408.jpg);
+    background: url(/assets/images/IMG_7408.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -96,7 +95,7 @@ header div h1 {
 .arrow {
     width: 7%;
     height: 10%;
-    background: url(imagens/arrow.svg);
+    background: url(/assets/images/arrow.svg);
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -351,7 +350,7 @@ footer p {
 @media (min-width: 668px) {
     
     header {
-        background: url(imagens/IMG_7409.jpg);
+        background: url(/assets/images/IMG_7409.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -442,7 +441,7 @@ footer p {
 @media (min-width: 968px) {
     
     header {
-        background: url(imagens/IMG_7384.jpg);
+        background: url(/assets/images/IMG_7384.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
