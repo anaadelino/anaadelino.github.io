@@ -1,0 +1,250 @@
+#About_me {
+    margin-top: 0px;
+    padding-bottom: 18%;
+}
+
+.My_picture {
+    padding: 40px 0 40px 0;
+    margin-left: 25%;
+}
+
+#About_me h3 {
+    width: 85%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    margin: 18% auto 30px auto;
+}
+
+#About_me a {
+    border-bottom: 3px solid #5ef44a;
+}
+
+#About_me a:hover {
+    border-bottom: 3px solid #3B3B3B;
+    transition-duration: .2s;
+}
+
+#About_me, #Skills, #Education {
+    padding: 7%;
+    padding-top: 50px;
+    box-shadow: 0 10px 30px 0 rgba(93,93,93,.07);
+}
+
+/*---------Skills---------*/
+
+#Skills {
+    padding-bottom: 16%;
+}
+
+#Skills h2 {
+    font-family: 'Nunito', sans-serif;
+}
+
+#Skills h2, #Skills h2:nth-of-type(3) {
+    padding-bottom: 30px;
+}
+
+#Skills img {
+    margin: 0 5px 5px 0;
+}
+
+#Skills span {
+    width: 100%;
+    display: block;
+    margin: 60px 0 50px 0;
+}
+
+#Skills ul {
+    margin: 0;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+#Skills ul li {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3B3B3B;
+}
+
+#Skills p:nth-child(2n) {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+}
+
+#Skills p:nth-child(2n+1) {
+    margin: 0 0 45px 0;
+}
+
+/*---------Education---------*/
+
+#Education {
+    box-shadow: 0 0 0 0;
+    margin-bottom: 3%;
+}
+
+#Education p:nth-child(3n+1) {
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+#Education p:nth-child(3n+2) {
+    margin: 0;
+    font-weight: 600;
+}
+
+#Education p:nth-child(3n) {
+    margin: 5px 0 45px 0;
+}
+
+#Education img {
+    display: none;
+}
+
+
+/*---------Media Query---------*/
+
+@media (min-width: 480px) {
+    #Skills ul {
+        width: 60%;
+    }
+}
+
+@media (min-width: 568px) {
+    
+    #About_me h3 {
+        width: 72%;
+    }
+}
+
+@media (min-width: 668px) {
+    
+    .logo {
+        margin: 30px;
+    }
+    
+    header nav {
+        margin: 35px 30px 0 0;
+    }
+    
+    nav li {
+        margin: 7px;
+    }
+    
+    #About_me, #Skills, #Education {
+        padding-top: 110px;
+    }
+    
+    section h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin: 25px 0 50px 0;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+    .My_picture {
+        width: 40%;
+        margin-left: 30%;
+    }
+    
+    #About_me h3 {
+        font-size: 20px;
+        line-height: 39px;
+        max-width: 381px;
+    }
+    
+    #Skills ul li {
+        font-size: 18px;
+        line-height: 32px;
+        padding: 0 0 0 50px;
+    }
+    
+    #Skills p:nth-child(2n+1) {
+        font-size: 18px; 
+    }
+}
+
+@media (min-width: 768px) {
+   
+    header nav {
+        margin: 35px 40px 0 0;
+    }
+}
+
+@media (min-width: 968px) {
+    
+    .My_picture {
+        width: 200px;
+        height: 216px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #About_me p:first-of-type {
+        margin-top: 65px;
+    }
+    
+    #About_me h3 {
+        font-size: 22px;
+        line-height: 42px;
+        max-width: 440px;
+    }
+    
+    #Education span, #Education img {
+        display: inline-block;
+    } 
+    
+    section h1 {
+        padding-bottom: 80px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        margin: 20px 0 45px 0;
+    }
+    
+    #Education span {
+        width: 50%;
+    }
+    
+    #Education img {
+        vertical-align: top;
+        margin: 80px 0 0 15%;
+    }
+}
+
+@media (min-width: 1124px) {
+    
+    section h1 {
+        font-size: 26px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+}
+
+
+@media (min-width: 1224px) {
+    
+    #About_me {
+        margin-top: 0;
+        padding-bottom: 14%;
+    }
+}
