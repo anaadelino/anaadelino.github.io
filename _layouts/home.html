@@ -6,53 +6,20 @@ layout: default
 <section id="My_Work">
     <h1>MY WORK</h1>
     <ul>
-        <li class="trabalho_1">
-            <img src="assets/images/trabalho1.jpg" alt="Bassive" width="100%">
-            <span>
-                <h2>Bassive</h2>
-                <h3>Digital Product</h3>
-            </span>
+        
+    {% for post in site.posts %}
+        <li>
+            <figure>
+                <img src="{{ post.image }}" alt="Bassive">
+                <h2>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+                        {{ post.title | escape }}
+                    </a> 
+                </h2>
+                <h3>{{ post.subtitle }}</h3>
+            </figure>
         </li>
-        <li class="trabalho_2">
-            <img src="assets/images/trabalho2.jpg" alt="Neon Rose" width="100%">
-            <span>
-                <h2>Neon Rose</h2>
-                <h3>Editorial + Audiovisual</h3>
-            </span>
-        </li>
-        <li class="trabalho_3">
-            <img src="assets/images/trabalho3.jpg" alt="Amazon Redesign" width="100%">
-            <span>
-                <h2>Amazon Redesign</h2>
-                <h3>Digital Product</h3>
-            </span>
-        </li>
-        <li class="trabalho_4">
-            <div>
-                <img src="assets/images/trabalho4.jpg" alt="Rosinha, minha canoa" width="100%">
-            </div>
-            <span>
-                <h2>Rosinha, minha canoa</h2>
-                <h3>Editorial</h3>
-            </span>
-        </li>
-        <li class="trabalho_5">
-            <div>
-                <img src="assets/images/trabalho5.jpg" alt="Touristing App" width="100%">
-            </div>
-            <span>
-                <h2>Touristing App</h2>
-                <h3>Digital Product</h3>
-            </span>
-        </li>
-        <li class="trabalho_6">
-            <div>
-                <img src="assets/images/trabalho6.jpg" alt="Audiovisual Publication" width="100%">
-            </div>
-            <span>
-                <h2>In the mood for love?</h2>
-                <h3>Editorial + Audiovisual</h3>
-            </span>
-        </li>
+    {% endfor %}
+        
     </ul>
 </section>
