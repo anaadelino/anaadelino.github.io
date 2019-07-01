@@ -156,6 +156,10 @@
     #Skills p:nth-child(2n+1) {
         font-size: 16px; 
     }
+    
+    #Skills p:nth-child(2n) {
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 768px) {
