@@ -129,6 +129,8 @@ p {
 
 #My_Work ul {
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 figure {
@@ -313,6 +315,16 @@ footer nav {
     header nav {
         margin: 35px 40px 0 0;
     }
+    
+    #My_Work ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #My_Work ul li {
+        width: 48%;
+    }
 }
 
 @media (min-width: 968px) {
@@ -323,79 +335,13 @@ footer nav {
         background-repeat: no-repeat;
     }
     
-    header div {
-        margin-top: 0;
+    .logo img {
+        width: 120px;
     }
     
-    header div h1 {
-        margin-top: 0;
-        text-align: center;
-    }
-    
-    .arrow {
-        width: 4%;
-        height: 6%;
-        left: 48%;
-    }
-    
-    wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .My_picture {
-        width: 200px;
-        height: 216px;
-        margin: 0;
-        padding: 0;
-    }
-    
-    #About_me p:first-of-type {
-        margin-top: 65px;
-    }
-    
-    #About_me h3 {
-        font-size: 22px;
-        line-height: 42px;
-        max-width: 440px;
-    }
-    
-    #My_Work > img, #My_Work div, #My_Work span, #Education span, #Education img {
-        display: inline-block;
-    } 
-
-    #My_Work > img, #My_Work div {
-        width: 50%;
-        margin-right: 6%;
-    }
-
-    #My_Work span {
-        width: 43%;
-        vertical-align: top;
-        margin-top: 0;
-    }
-    
-    section h1 {
-        padding-bottom: 80px;
-    }
-    
-    h3 {
-        font-size: 20px;
-        margin: 20px 0 45px 0;
-    }
-    
-    #My_Work p {
-        margin-bottom: 0;
-    }
-    
-    #Education span {
-        width: 50%;
-    }
-    
-    #Education img {
-        vertical-align: top;
-        margin: 80px 0 0 15%;
+    nav li {
+        margin: 10px;
+        font-size: 17px;
     }
 }
 
@@ -418,14 +364,9 @@ footer nav {
         font-size: 24px;
     }
     
-    #My_Work > img, #My_Work div {
-        width: 54%;
-        margin-right: 6%;
-    }
-
-    #My_Work span {
-        width: 39%;
-        margin-bottom: 200px;
+    
+    #My_Work ul li {
+        width: 31%;
     }
 }
 
