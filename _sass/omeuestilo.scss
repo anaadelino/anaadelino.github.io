@@ -213,7 +213,11 @@ footer nav {
     
     footer wrapper {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
+    }
+    
+    footer h1 {
+        text-align: left;
     }
     
     footer span {
@@ -268,17 +272,18 @@ footer nav {
         margin: 30px;
     }
     
-    header nav {
-        margin: 35px 30px 0 0;
+    .menu {
+        margin: 30px 30px 0 0;
     }
     
     nav li {
         margin: 7px;
+        font-size: 15px;
     }
     
     header div h1 {
         font-size: 24px;
-        line-height: 38px;
+        line-height: 42px;
         max-width: 430px;
     }
     
@@ -288,55 +293,25 @@ footer nav {
         left: 47.5%;
     }
     
-    #About_me, #My_Work, #Skills, #Education {
-        padding-top: 110px;
+    #My_Work {
+        padding-top: 50px;
     }
     
     .menu_background {
-        height: 120px;
-    }
-    
-    #About_me {
-        margin-top: -110px;
+        height: 110px;
     }
     
     section h1 {
-        font-size: 24px;
+        font-size: 22px;
     }
     
     h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     h3 {
-        font-size: 20px;
-        margin: 25px 0 50px 0;
-    }
-
-    p {
         font-size: 18px;
-        line-height: 32px;
-    }
-    
-    .My_picture {
-        width: 40%;
-        margin-left: 30%;
-    }
-    
-    #About_me h3 {
-        font-size: 20px;
-        line-height: 39px;
-        max-width: 381px;
-    }
-    
-    #Skills ul li {
-        font-size: 18px;
-        line-height: 32px;
-        padding: 0 0 0 50px;
-    }
-    
-    #Skills p:nth-child(2n+1) {
-        font-size: 18px; 
+        margin: 10px 0 50px 0;
     }
 }
 
