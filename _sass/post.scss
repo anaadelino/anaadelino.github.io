@@ -1,6 +1,4 @@
-#Post {
-    margin-bottom: 50px;
-}
+
 
 #Post h2, #Post h3, #Post p {
     padding: 0 7% 0 7%;
@@ -28,11 +26,18 @@ h4 {
     justify-content: center;
 }
 
+#Post img {
+    width: 100%;
+}
+
 #Post a {
     text-align: center;
     border-bottom: 3px solid #5ef44a;
 }
 
+.last_image {
+    margin-bottom: 0;
+}
 
 
 

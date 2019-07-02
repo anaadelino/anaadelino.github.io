@@ -115,7 +115,7 @@ p {
     line-height: 28px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #3B3B3B;
-    margin-top: 20px;
+    margin: 20px 0 20px 0;
     max-width: 570px;
 }
 
@@ -135,6 +135,15 @@ p {
 
 figure {
     margin: 20px 0 20px 0;
+}
+
+figure a {
+    opacity: 1;
+}
+
+figure a:hover {
+    opacity: 0.5;
+    transition: opacity 1s;
 }
 
 #My_Work img {
