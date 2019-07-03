@@ -19,11 +19,11 @@
 }
 
 #About_me a {
-    border-bottom: 3px solid #5ef44a;
+    border-bottom: 3px solid $maincolor;
 }
 
 #About_me a:hover {
-    border-bottom: 3px solid #3B3B3B;
+    border-bottom: 3px solid $textcolor;
     transition-duration: .2s;
 }
 
@@ -39,7 +39,7 @@
 }
 
 #Skills h2 {
-    font-family: 'Nunito', sans-serif;
+    font-family: $firsttype;
 }
 
 #Skills h2, #Skills h2:nth-of-type(3) {
@@ -67,8 +67,8 @@
     font-size: 14px;
     line-height: 28px;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #3B3B3B;
+    font-family: $secondtype;
+    color: $textcolor;
 }
 
 #Skills p:nth-child(2n) {

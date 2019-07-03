@@ -37,22 +37,22 @@ nav li {
     padding: 8px;
     margin: 3px;
     font-size: 14px;
-    font-family: 'Nunito', sans-serif;
+    font-family: $firsttype;
 }
 
 a {
     text-decoration: none;
-    color: #3B3B3B;
+    color: $textcolor;
 }
 
 nav a:hover {
-    border-bottom: 3px solid #5ef44a;
+    border-bottom: 3px solid $maincolor;
 }
 
 header div h1 {
     font-size: 16px;
     line-height: 28px;
-    font-family: 'Nunito', sans-serif;
+    font-family: $firsttype;
     font-weight: 700;
     margin: 0;
     max-width: 280px;
@@ -136,13 +136,6 @@ header div h1 {
         width: 5%;
         height: 8%;
         left: 47.5%;
-    }
-}
-
-@media (min-width: 768px) {
-   
-    header nav {
-        margin: 35px 40px 0 0;
     }
 }
 

@@ -1,3 +1,5 @@
+@import "variables";
+
 body {
     margin: 0;
 }
@@ -15,8 +17,8 @@ body {
 
 section h1 {
     font-size: 18px;
-    font-family: 'Nunito', sans-serif;
-    color: #3B3B3B;
+    font-family: $firsttype;
+    color: $textcolor;
     text-align: center;
     padding-bottom: 5%;
     margin: 0;
@@ -25,16 +27,16 @@ section h1 {
 h2 {
     font-size: 16px;
     font-weight: 600;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #3B3B3B;
+    font-family: $secondtype;
+    color: $textcolor;
     margin: 0;
 }
 
 h3 {
     font-size: 14px;
     font-weight: 400;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #999999;
+    font-family: $secondtype;
+    color: $legendcolor;
     margin: 10px 0 50px 0;
 }
 
@@ -42,8 +44,8 @@ p {
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #3B3B3B;
+    font-family: $secondtype;
+    color: $textcolor;
     margin: 20px 0 20px 0;
     max-width: 560px;
 }
