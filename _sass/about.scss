@@ -169,6 +169,7 @@
         
         p:first-of-type {
             float: left; 
+            clear: both;
         }
         
         h3 {
@@ -210,5 +211,12 @@
     
     #About_me {
         padding-bottom: 14%;
+    }
+}
+
+@media (min-width: 1350px) {
+    
+    .My_picture {
+        margin: 0 0 0 25%;
     }
 }
