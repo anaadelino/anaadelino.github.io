@@ -1,30 +1,32 @@
+@import "variables";
+
 #About_me {
     margin-top: 0px;
     padding: 50px 7% 18% 7%;
     box-shadow: 0 10px 30px 0 rgba(93,93,93,.07);
+    
+    h3 {
+        width: 85%;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 35px;
+        text-align: center;
+        margin: 18% auto 30px auto; 
+    }
+    
+    a {
+        border-bottom: 3px solid $maincolor;
+    }
+    
+    a:hover {
+        border-bottom: 3px solid $textcolor;
+        transition-duration: .2s;
+    }
 }
 
 .My_picture {
     padding: 40px 0 40px 0;
     margin-left: 25%;
-}
-
-#About_me h3 {
-    width: 85%;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 35px;
-    text-align: center;
-    margin: 18% auto 30px auto;
-}
-
-#About_me a {
-    border-bottom: 3px solid $maincolor;
-}
-
-#About_me a:hover {
-    border-bottom: 3px solid $textcolor;
-    transition-duration: .2s;
 }
 
 #Skills, #Education {
@@ -36,49 +38,50 @@
 
 #Skills {
     padding-bottom: 16%;
-}
-
-#Skills h2 {
-    font-family: $firsttype;
-}
-
-#Skills h2, #Skills h2:nth-of-type(3) {
-    padding-bottom: 30px;
-}
-
-#Skills img {
-    margin: 0 5px 5px 0;
-}
-
-#Skills span {
-    width: 100%;
-    display: block;
-    margin: 60px 0 50px 0;
-}
-
-#Skills ul {
-    margin: 0;
-    display: flex;
-    padding: 0;
-    justify-content: space-between;
-}
-
-#Skills ul li {
-    font-size: 14px;
-    line-height: 28px;
-    text-align: center;
-    font-family: $secondtype;
-    color: $textcolor;
-}
-
-#Skills p:nth-child(2n) {
-    font-size: 14px;
-    font-weight: 600;
-    margin: 0 0 8px 0;
-}
-
-#Skills p:nth-child(2n+1) {
-    margin: 0 0 45px 0;
+    
+    h2 {
+        font-family: $firsttype;
+        padding-bottom: 30px;
+    }
+    
+    h2:nth-of-type(3) {
+        padding-bottom: 30px;
+    }
+    
+    img {
+        margin: 0 5px 5px 0;
+    }
+    
+    span {
+        width: 100%;
+        display: block;
+        margin: 60px 0 50px 0;
+    }
+    
+    ul {
+        margin: 0;
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+        
+        li {
+            font-size: 14px;
+            line-height: 28px;
+            text-align: center;
+            font-family: $secondtype;
+            color: $textcolor;
+        }
+    }
+    
+    p:nth-child(2n) {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0 0 8px 0;
+    }
+    
+    p:nth-child(2n+1) {
+        margin: 0 0 45px 0;
+    }
 }
 
 /*---------Education---------*/
@@ -86,26 +89,25 @@
 #Education {
     box-shadow: 0 0 0 0;
     margin-bottom: 3%;
+    
+    p:nth-child(3n+1) {
+        margin-bottom: 8px;
+        font-weight: 600; 
+    }
+    
+    p:nth-child(3n+2) {
+        margin: 0;
+        font-weight: 600; 
+    }
+    
+    p:nth-child(3n) {
+        margin: 5px 0 45px 0;
+    }
+    
+    img {
+        display: none;
+    }
 }
-
-#Education p:nth-child(3n+1) {
-    margin-bottom: 8px;
-    font-weight: 600;
-}
-
-#Education p:nth-child(3n+2) {
-    margin: 0;
-    font-weight: 600;
-}
-
-#Education p:nth-child(3n) {
-    margin: 5px 0 45px 0;
-}
-
-#Education img {
-    display: none;
-}
-
 
 /*---------Media Query---------*/
 
@@ -157,33 +159,37 @@
         float: left;
     }
     
-    #About_me p {
-        font-size: 17px;
-        line-height: 34px;
+    #About_me {
+        
+        p {
+            font-size: 17px;
+            line-height: 34px;  
+        }
+        
+        p:first-of-type {
+            margin-top: 65px;
+            float: left; 
+        }
+        
+        h3 {
+            font-size: 22px;
+            line-height: 42px;
+            max-width: 440px;
+        }
     }
     
-    #About_me p:first-of-type {
-        margin-top: 65px;
-        float: left;
-    }
-    
-    #About_me h3 {
-        font-size: 22px;
-        line-height: 42px;
-        max-width: 440px;
-    }
-    
-    #Education span, #Education img {
-        display: inline-block;
-    } 
-    
-    #Education span {
-        width: 50%;
-    }
-    
-    #Education img {
-        vertical-align: top;
-        margin: 80px 0 0 15%;
+    #Education {
+        
+        span {
+            display: inline-block;
+            width: 50%;
+        }
+        
+        img {
+            display: inline-block;
+            vertical-align: top;
+            margin: 80px 0 0 15%;
+        }
     }
 }
 

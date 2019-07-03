@@ -1,13 +1,27 @@
-#Post h2, #Post h3, #Post p {
-    padding: 0 7% 0 7%;
-}
+@import "variables";
 
-#Post h2:nth-of-type(1) {
-    font-size: 20px;
-}
-
-#Post h2:nth-of-type(2), #Post h2:nth-of-type(3) {
-    margin-top: 50px;
+#Post {
+    
+    h2, h3, p {
+        padding: 0 7% 0 7%;
+    }
+    
+    h2:nth-of-type(1) {
+        font-size: 20px;
+    }
+    
+    h2:nth-of-type(2), h2:nth-of-type(3) {
+        margin-top: 50px;
+    }
+    
+    figure {
+        display: flex;
+        justify-content: center;
+    }
+    
+    img {
+        width: 100%;
+    }
 }
 
 h4 {
@@ -17,15 +31,6 @@ h4 {
     color: $legendcolor;
     text-align: center;
     margin: 40px 0 20px 0;
-}
-
-#Post figure {
-    display: flex;
-    justify-content: center;
-}
-
-#Post img {
-    width: 100%;
 }
 
 .last_image {
