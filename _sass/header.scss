@@ -21,6 +21,19 @@ header {
     left: 0;
     margin: 15px;
     padding: 0;
+    animation-duration: 1s;
+    animation-name: position1;
+}
+
+@keyframes position1 {
+  
+    from {
+        left: -70px;
+    }
+
+    to {
+        left: 0px;
+    }
 }
 
 .menu {
@@ -28,6 +41,19 @@ header {
     top: 0;
     right: 0;
     margin: 10px 10px 0 0;
+    animation-duration: 1s;
+    animation-name: position2;
+}
+
+@keyframes position2 {
+  
+    from {
+        right: -400px;
+    }
+
+    to {
+        right: 0px;
+    }
 }
 
 ul {
