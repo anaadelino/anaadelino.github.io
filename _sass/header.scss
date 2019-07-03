@@ -21,8 +21,7 @@ header {
     left: 0;
     margin: 15px;
     padding: 0;
-    animation-duration: 1s;
-    animation-name: position1;
+    animation: position1 1s linear;
 }
 
 @keyframes position1 {
@@ -41,8 +40,7 @@ header {
     top: 0;
     right: 0;
     margin: 10px 10px 0 0;
-    animation-duration: 1s;
-    animation-name: position2;
+    animation: position2 1s linear;
 }
 
 @keyframes position2 {

@@ -7,6 +7,7 @@
     
     h3 {
         width: 85%;
+        max-width: 350px;
         font-size: 18px;
         font-weight: 600;
         line-height: 35px;
@@ -19,7 +20,7 @@
     }
     
     a:hover {
-        border-bottom: 3px solid $textcolor;
+        border-bottom: 3px solid $legendcolor;
         transition-duration: .2s;
     }
 }
@@ -154,7 +155,7 @@
     
     .My_picture {
         width: 150px;
-        margin: 47px 0 0 12%;
+        margin: 0 0 0 12%;
         padding: 0;
         float: left;
     }
@@ -167,7 +168,6 @@
         }
         
         p:first-of-type {
-            margin-top: 65px;
             float: left; 
         }
         
@@ -176,6 +176,10 @@
             line-height: 42px;
             max-width: 440px;
         }
+    }
+    
+    #Skills ul {
+        width: 40%;
     }
     
     #Education {
@@ -194,7 +198,19 @@
 }
 
 
+@media (min-width: 1024px) {
+
+    .My_picture {
+        margin: 0 0 0 18%;
+    }
+}
+
+
 @media (min-width: 1224px) {
+    
+    .My_picture {
+        margin: 0 0 0 25%;
+    }
     
     #About_me {
         padding-bottom: 14%;
