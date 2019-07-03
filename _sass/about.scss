@@ -168,8 +168,7 @@
         }
         
         p:first-of-type {
-            float: left;
-            clear: both;
+            float: left; 
         }
         
         h3 {
@@ -209,18 +208,7 @@
 
 @media (min-width: 1224px) {
     
-    .My_picture {
-        margin: 0 0 0 20%;
-    }
-    
     #About_me {
         padding-bottom: 14%;
-    }
-}
-
-@media (min-width: 1300px) {
-    
-    .My_picture {
-        margin: 0 0 0 25%;
     }
 }
